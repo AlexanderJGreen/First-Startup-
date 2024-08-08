@@ -1,0 +1,58 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-family: Teko, sans-serif;
+  background-image: url(https://i.pinimg.com/originals/7f/e8/1d/7fe81d63f005f73147d810f0f2f98e7f.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  font-size: 4rem;
+  color: #ebe6e6;
+}
+
+hr {
+  border-color: #ebe6e6;
+  border-width: 3px;
+  max-width: 65px;
+}
+
+.centered-hr {
+  width: 50%;
+  height: 20px;
+  margin: 0 auto;
+}
+
+.buffer {
+  height: 5rem;
+}
+
+.btn {
+  color: grey;
+  font-weight: 700;
+  border-radius: 300px;
+}
+
+.btn-xl {
+  padding: 1rem 2rem;
+}
+
+.btn-primary {
+  background-color: white;
+  border-color: white;
+}
+
+.btn-primary:hover {
+  background-color: #ff0000;
+  border-color: #ff0000;
+  border-width: 5px;
+  transition: 0.5s ease;
+}
+
+.btn-text {
+  font-family: Josefin Sans, sans-serif, sans-serif;
+  font-size: 1rem;
+  color: black;
+}
